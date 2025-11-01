@@ -36,4 +36,4 @@ C# Programming Skills:
 
 - We can train it in a background mode or simulate it in Unity using a simplified environment.
 
-Compare AI vs human player performance in terms of time, collisions, and efficiency.
+- Compare AI vs human player performance in terms of time, collisions, and efficiency.
