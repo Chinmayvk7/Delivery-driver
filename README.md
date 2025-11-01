@@ -69,6 +69,18 @@ Time Management:
 Input Handling:
 • Controlled vehicle steering and acceleration using Input.GetAxis() for responsive gameplay.
 
+🕹️ Controls
+
+W / ↑ Arrow – Accelerate / Move Forward
+
+S / ↓ Arrow – Reverse / Slow Down
+
+A / ← Arrow – Turn Left
+
+D / → Arrow – Turn Right
+
+Spacebar – Activate Boost (Red Circle Object)
+
 🧭 Gameplay Flow
 
 🟫 Package Pickup → 🚗 Drive & Navigate → ⚡ Optional Boost Zones → 🔵 Customer Delivery → 💨 Reset & Repeat
