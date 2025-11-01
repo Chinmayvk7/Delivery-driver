@@ -1,39 +1,22 @@
-- In "Delivery Driver," players navigate a vehicle to pick up brown packages and deliver them to customer(Blue) locations within a dynamic environment.
+🚚 Delivery Driver – Unity 2D Game
 
- Unity Game Development & Design:
+🎮 Project Overview
 
-- Scene & Level Design: Focused on creating intuitive road layouts and environmental elements, ensuring a smooth gameplay flow from a top-down perspective.
+Delivery Driver is a 2D top-down driving game built in Unity, where players navigate a vehicle to pick up brown packages and deliver them to blue customer locations within a dynamic environment.
+The project focuses on realistic vehicle control, responsive physics, and intuitive level design, offering a fun and interactive experience that emphasizes timing, precision, and feedback-driven gameplay.
 
-- Player Control & Movement: Implemented responsive vehicle controls using Transform.Translate() and Transform.Rotate() for fluid driving.
+🧠 Concepts & Systems Implemented
 
-- Physics & Collisions:Rigidbody Dynamics: Utilized Rigidbody components for realistic vehicle physics and interactions.
+🏙️ Scene & Level Design
 
-- Colliders: Extensively used OnCollisionEnter2D() for "crash" detection and OnTriggerEnter2D() for core gameplay mechanics like package pickup and customer delivery.
+Designed intuitive road layouts and environmental elements for natural player navigation.
 
-- Game Logic & Visual Feedback: Developed a robust package pickup and delivery system. Implemented dynamic car color changes upon picking up packages and delivering to customers, 
+Optimized object placement and colliders to ensure smooth gameplay flow and collision handling.
 
-- providing clear visual cues. It does include small amount of time delay to make it look realistic.
+Maintained a clean top-down camera perspective for easy control and visibility.
 
-- Boost Mechanic( Red Circular object elements) : Incorporated a "boost" feature to temporarily increase vehicle speed. 
+🚗 Player Control & Movement
 
-- Camera Systems: Designed a smooth Follow Camera that tracks the player's car, maintaining optimal visibility.
-
-C# Programming Skills:
-
-- Conditional Logic: Applied If statements extensively for game logic, such as detecting tags (other.tag) for packages and customers, and triggering specific behaviors.
-
-- Component Interaction: Mastered GetComponent() to dynamically access and manipulate components like SpriteRenderer for visual changes.
-
-- Time Management: Utilized Time.deltaTime to ensure frame-rate independent movement and actions. So, the game is optimized on both high and low end devices!!
-
-- Input Handling: Implemented Input.GetAxis() for responsive player controls.
-
-- Object Lifecycle Management: Used Destroy() for removing game objects from the scene.
-
-- Inspector Integration: Leveraged [SerializeField] to expose variables in the Unity Inspector, enabling efficient game balancing and tweaking.
-
-- The AI “driver” learns how to deliver packages in minimal time while avoiding obstacles.
-
-- We can train it in a background mode or simulate it in Unity using a simplified environment.
-
-- Compare AI vs human player performance in terms of time, collisions, and efficiency.
+Implemented responsive driving mechanics using:
+Transform.Translate();
+Transform.Rotate();
